@@ -3,7 +3,7 @@ from pathlib import Path
 filenames = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
 current_dir = Path.cwd()
 filenames = Path(current_dir).glob('*')
-Path('new_dir').mkdir(parents=True, exist_ok=True)
+Path('neww_dir').mkdir(parents=True, exist_ok=True)
 
 for file in filenames:
     with Image.open(file) as img:

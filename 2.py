@@ -3,7 +3,7 @@ from pathlib import Path
 
 current_dir = ''
 filenames = Path(current_dir).glob('*')
-Path('new_dir').mkdir(parents=True, exist_ok=True)
+Path('neww_dir').mkdir(parents=True, exist_ok=True)
 
 for file in filenames:
     if file.suffix in ['.jpg', '.png']:
